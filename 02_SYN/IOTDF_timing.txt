@@ -1,0 +1,1547 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : IOTDF
+Version: U-2022.12
+Date   : Tue Apr 16 20:19:24 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_data_reg[126]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IOTDF              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_data_reg[126]/CK (DFFRHQX1)          0.00       1.00 r
+  iot_data_reg[126]/Q (DFFRHQX1)           0.36       1.36 r
+  U708/Y (CLKINVX1)                        0.28       1.64 f
+  U742/Y (XNOR2X4)                         0.16       1.80 r
+  U691/Y (XNOR2X1)                         0.18       1.98 r
+  U689/Y (XOR3X1)                          0.46       2.44 r
+  U699/Y (XOR3X2)                          0.34       2.78 r
+  U747/Y (XOR2X1)                          0.27       3.05 r
+  U697/Y (XNOR3X1)                         0.33       3.37 r
+  U696/Y (XOR3X2)                          0.25       3.63 r
+  U779/Y (XOR2X1)                          0.18       3.80 r
+  U768/Y (XNOR3X4)                         0.25       4.05 r
+  U916/Y (CLKINVX1)                        0.15       4.20 f
+  U785/Y (XOR2X4)                          0.16       4.36 r
+  U1491/Y (XOR3X2)                         0.20       4.56 r
+  U695/Y (XOR3X1)                          0.34       4.90 r
+  U835/Y (CLKINVX1)                        0.13       5.04 f
+  U741/Y (NAND2X2)                         0.11       5.15 r
+  U746/Y (NAND2X1)                         0.08       5.23 f
+  U694/Y (XOR3X1)                          0.35       5.59 r
+  U745/Y (CLKINVX1)                        0.22       5.81 f
+  U755/Y (XOR2X1)                          0.20       6.01 r
+  U748/Y (XNOR3X1)                         0.27       6.28 r
+  U717/Y (XOR3X1)                          0.36       6.64 r
+  U722/Y (XOR2X1)                          0.24       6.88 r
+  U683/Y (XOR2X4)                          0.16       7.04 r
+  U682/Y (XOR3X4)                          0.25       7.29 r
+  U686/Y (XOR3X4)                          0.19       7.47 r
+  U685/Y (XOR2X4)                          0.11       7.58 r
+  U711/Y (XOR2X1)                          0.25       7.83 r
+  U716/Y (CLKINVX1)                        0.19       8.01 f
+  U731/Y (NAND2X1)                         0.16       8.17 r
+  U693/Y (NAND2X2)                         0.15       8.32 f
+  U726/Y (CLKINVX1)                        0.10       8.42 r
+  U729/Y (NAND2X1)                         0.10       8.52 f
+  U688/Y (NAND2X4)                         0.13       8.65 r
+  U681/Y (XOR3X2)                          0.23       8.88 f
+  U725/Y (INVX1)                           0.19       9.06 r
+  U719/Y (XNOR3XL)                         0.51       9.58 r
+  U684/Y (XNOR3X4)                         0.24       9.82 r
+  U760/Y (XOR2X1)                          0.27      10.08 r
+  U739/Y (XOR2XL)                          0.27      10.36 f
+  U736/Y (OR2X1)                           0.24      10.60 f
+  U737/Y (NAND3X1)                         0.12      10.72 r
+  iot_out_reg[2]/D (DFFRX1)                0.00      10.72 r
+  data arrival time                                  10.72
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              1.00      11.00
+  clock uncertainty                       -0.10      10.90
+  iot_out_reg[2]/CK (DFFRX1)               0.00      10.90 r
+  library setup time                      -0.13      10.77
+  data required time                                 10.77
+  -----------------------------------------------------------
+  data required time                                 10.77
+  data arrival time                                 -10.72
+  -----------------------------------------------------------
+  slack (MET)                                         0.05
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : IOTDF
+Version: U-2022.12
+Date   : Tue Apr 16 20:43:53 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_data_reg[127]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IOTDF              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_data_reg[127]/CK (DFFRHQX8)          0.00       1.00 r
+  iot_data_reg[127]/Q (DFFRHQX8)           0.23       1.23 f
+  U1149/Y (XOR2X4)                         0.13       1.36 r
+  U713/Y (NAND2X8)                         0.06       1.42 f
+  U1121/Y (NAND2X8)                        0.04       1.47 r
+  U1154/Y (XOR2X4)                         0.07       1.53 r
+  U1124/Y (XOR2X4)                         0.10       1.63 r
+  U1158/Y (XOR2X4)                         0.14       1.77 r
+  U701/Y (XOR2X4)                          0.11       1.88 r
+  U699/Y (XOR2X4)                          0.13       2.00 r
+  U698/Y (XOR2X4)                          0.10       2.11 r
+  U697/Y (XNOR2X4)                         0.12       2.22 r
+  U747/Y (XOR2X4)                          0.10       2.33 r
+  U746/Y (XOR2X4)                          0.12       2.44 r
+  U1027/Y (XOR2X4)                         0.10       2.55 r
+  U1032/Y (XOR2X4)                         0.13       2.67 r
+  U735/Y (XOR2X4)                          0.11       2.78 r
+  U794/Y (XOR2X4)                          0.11       2.89 r
+  U793/Y (XNOR2X4)                         0.12       3.01 r
+  U1113/Y (XOR2X4)                         0.10       3.11 r
+  U1112/Y (XOR2X4)                         0.15       3.26 f
+  U721/Y (INVX6)                           0.08       3.35 r
+  U727/Y (NAND2X6)                         0.05       3.39 f
+  U725/Y (NAND2X8)                         0.06       3.45 r
+  U804/Y (XOR2X4)                          0.07       3.52 r
+  U803/Y (XOR2X4)                          0.11       3.63 r
+  U806/Y (XOR2X4)                          0.10       3.73 r
+  U805/Y (XOR2X4)                          0.11       3.84 r
+  U1002/Y (XOR2X4)                         0.10       3.95 r
+  U1001/Y (XNOR2X4)                        0.12       4.07 r
+  U1008/Y (XNOR2X4)                        0.12       4.19 r
+  U796/Y (XNOR2X4)                         0.12       4.31 r
+  U795/Y (XNOR2X4)                         0.12       4.42 r
+  U1028/Y (XOR2X4)                         0.10       4.53 r
+  U1033/Y (XOR2X4)                         0.11       4.64 r
+  U755/Y (XOR2X4)                          0.14       4.78 f
+  U716/Y (INVX8)                           0.06       4.84 r
+  U714/Y (NAND2X8)                         0.04       4.88 f
+  U719/Y (NAND2X8)                         0.06       4.94 r
+  U776/Y (XOR2X4)                          0.07       5.01 r
+  U775/Y (XOR2X4)                          0.11       5.12 r
+  U778/Y (XOR2X4)                          0.10       5.22 r
+  U777/Y (XOR2X4)                          0.11       5.33 r
+  U749/Y (XOR2X4)                          0.10       5.44 r
+  U748/Y (XOR2X4)                          0.11       5.55 r
+  U1014/Y (XOR2X4)                         0.10       5.65 r
+  U1029/Y (XOR2X4)                         0.11       5.76 r
+  U780/Y (XOR2X4)                          0.12       5.88 r
+  U779/Y (XOR2X4)                          0.10       5.98 r
+  U798/Y (XOR2X4)                          0.11       6.09 r
+  U797/Y (XNOR2X4)                         0.12       6.21 r
+  U808/Y (XOR2X4)                          0.10       6.31 r
+  U807/Y (XOR2X4)                          0.11       6.42 r
+  U810/Y (XOR2X4)                          0.10       6.52 r
+  U809/Y (XOR2X4)                          0.11       6.63 r
+  U1021/Y (XOR2X4)                         0.10       6.73 r
+  U1019/Y (XOR2X4)                         0.13       6.86 r
+  U763/Y (XOR2X4)                          0.11       6.97 r
+  U762/Y (XOR2X4)                          0.11       7.08 r
+  U745/Y (XOR2X4)                          0.10       7.18 r
+  U744/Y (XOR2X4)                          0.11       7.29 r
+  U820/Y (XOR2X4)                          0.14       7.43 r
+  U819/Y (XOR2X4)                          0.11       7.54 r
+  U811/Y (XOR2X4)                          0.11       7.65 r
+  U1017/Y (XOR2X4)                         0.10       7.75 r
+  U1030/Y (XOR2X4)                         0.11       7.86 r
+  U731/Y (XOR2X4)                          0.10       7.96 r
+  U822/Y (XOR2X4)                          0.11       8.07 r
+  U821/Y (XOR2X4)                          0.14       8.21 r
+  U815/Y (XOR2X4)                          0.11       8.32 r
+  U814/Y (XOR2X4)                          0.16       8.48 f
+  U711/Y (INVX12)                          0.07       8.55 r
+  U706/Y (NAND2X8)                         0.04       8.59 f
+  U709/Y (NAND2X8)                         0.06       8.64 r
+  U752/Y (XOR2X4)                          0.09       8.73 r
+  U686/Y (XOR2X4)                          0.12       8.85 r
+  U764/Y (XOR2X4)                          0.11       8.96 r
+  U766/Y (XOR2X4)                          0.12       9.08 r
+  U765/Y (XNOR2X4)                         0.12       9.20 r
+  U768/Y (XOR2X4)                          0.10       9.30 r
+  U767/Y (XOR2X4)                          0.11       9.42 r
+  U753/Y (XOR2X4)                          0.10       9.52 r
+  U782/Y (XOR2X4)                          0.13       9.65 r
+  U781/Y (XOR2X4)                          0.12       9.77 r
+  U737/Y (XOR2X4)                          0.10       9.87 r
+  U759/Y (XNOR2X4)                         0.11       9.98 r
+  U758/Y (XOR2X4)                          0.12      10.10 r
+  U761/Y (XOR2X4)                          0.10      10.20 r
+  U760/Y (XNOR2X4)                         0.11      10.31 r
+  U751/Y (XNOR2X4)                         0.12      10.43 r
+  U824/Y (XOR2X4)                          0.14      10.57 r
+  U823/Y (XOR2X4)                          0.11      10.68 r
+  U826/Y (XOR2X4)                          0.11      10.79 r
+  U825/Y (XOR2X4)                          0.14      10.92 r
+  U770/Y (XOR2X4)                          0.11      11.03 r
+  U769/Y (XOR2X4)                          0.11      11.14 r
+  U772/Y (XOR2X4)                          0.10      11.25 r
+  U771/Y (XOR2X4)                          0.11      11.36 r
+  U741/Y (XOR2X4)                          0.10      11.46 r
+  U740/Y (XOR2X4)                          0.11      11.57 r
+  U757/Y (XNOR2X4)                         0.12      11.69 r
+  U756/Y (XNOR2X4)                         0.12      11.81 r
+  U732/Y (XOR2X4)                          0.10      11.91 r
+  U800/Y (XOR2X4)                          0.11      12.02 r
+  U799/Y (XNOR2X4)                         0.12      12.14 r
+  U1010/Y (XOR2X4)                         0.10      12.24 r
+  U1022/Y (XOR2X4)                         0.13      12.37 r
+  U774/Y (XOR2X4)                          0.11      12.47 r
+  U773/Y (XOR2X4)                          0.11      12.59 r
+  U743/Y (XOR2X4)                          0.10      12.69 r
+  U742/Y (XOR2X4)                          0.11      12.80 r
+  U790/Y (XNOR2X4)                         0.12      12.92 r
+  U789/Y (XNOR2X4)                         0.12      13.03 r
+  U792/Y (XOR2X4)                          0.10      13.14 r
+  U791/Y (XNOR2X4)                         0.11      13.25 r
+  U754/Y (XOR2X4)                          0.12      13.37 r
+  U816/Y (XOR2X4)                          0.12      13.48 r
+  U712/Y (CLKXOR2X8)                       0.17      13.66 f
+  U738/Y (XOR2X4)                          0.11      13.76 r
+  U707/Y (NAND2X8)                         0.06      13.82 f
+  U717/Y (NAND2X8)                         0.07      13.89 r
+  U802/Y (XOR2X4)                          0.07      13.97 r
+  U801/Y (XNOR2X4)                         0.11      14.08 r
+  U736/Y (XOR2X4)                          0.12      14.20 r
+  U784/Y (XOR2X4)                          0.11      14.31 r
+  U783/Y (XNOR2X4)                         0.12      14.43 r
+  U786/Y (XNOR2X4)                         0.12      14.55 r
+  U785/Y (XOR2X4)                          0.12      14.66 r
+  U788/Y (XOR2X4)                          0.11      14.77 r
+  U787/Y (XOR2X4)                          0.11      14.88 r
+  U750/Y (XNOR2X4)                         0.12      15.00 r
+  U813/Y (XOR2X4)                          0.12      15.12 r
+  U812/Y (XOR2X4)                          0.12      15.24 r
+  U817/Y (XOR2X4)                          0.12      15.36 r
+  U704/Y (XOR2X4)                          0.14      15.50 r
+  U703/Y (NAND2X4)                         0.08      15.58 f
+  U691/Y (NAND2X8)                         0.08      15.66 r
+  U1150/Y (XOR2X4)                         0.08      15.74 r
+  U733/Y (NAND2X6)                         0.06      15.80 f
+  U724/Y (NAND2X4)                         0.05      15.85 r
+  iot_out_reg[0]/D (DFFRHQX4)              0.00      15.85 r
+  data arrival time                                  15.85
+
+  clock clk (rise edge)                   15.00      15.00
+  clock network delay (ideal)              1.00      16.00
+  clock uncertainty                       -0.10      15.90
+  iot_out_reg[0]/CK (DFFRHQX4)             0.00      15.90 r
+  library setup time                      -0.03      15.87
+  data required time                                 15.87
+  -----------------------------------------------------------
+  data required time                                 15.87
+  data arrival time                                 -15.85
+  -----------------------------------------------------------
+  slack (MET)                                         0.02
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : IOTDF
+Version: U-2022.12
+Date   : Tue Apr 16 20:55:06 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_data_reg[126]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IOTDF              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_data_reg[126]/CK (DFFRX1)            0.00       1.00 r
+  iot_data_reg[126]/Q (DFFRX1)             0.42       1.42 f
+  U813/Y (OR2X1)                           0.21       1.63 f
+  U803/Y (NAND2X2)                         0.15       1.78 r
+  U799/Y (INVX3)                           0.08       1.87 f
+  U816/Y (NAND2X8)                         0.06       1.93 r
+  U798/Y (NAND2X6)                         0.05       1.98 f
+  U834/Y (NAND2X1)                         0.12       2.10 r
+  U830/Y (NAND2X2)                         0.09       2.19 f
+  U811/Y (XNOR2X2)                         0.14       2.33 r
+  U810/Y (XNOR2X2)                         0.20       2.53 r
+  U795/Y (XNOR2X4)                         0.15       2.68 r
+  U794/Y (XNOR2X4)                         0.16       2.84 f
+  U797/Y (INVX3)                           0.10       2.94 r
+  U822/Y (NAND2X6)                         0.04       2.98 f
+  U796/Y (NAND2X4)                         0.08       3.05 r
+  U685/Y (XNOR2X4)                         0.12       3.17 r
+  U835/Y (NAND2X1)                         0.11       3.28 f
+  U801/Y (NAND2X1)                         0.25       3.53 r
+  U837/Y (NAND2XL)                         0.16       3.69 f
+  U839/Y (NAND2X2)                         0.15       3.84 r
+  U687/Y (XNOR2X4)                         0.11       3.95 r
+  U686/Y (XOR2X4)                          0.14       4.09 r
+  U689/Y (XNOR2X4)                         0.12       4.21 r
+  U688/Y (XNOR2X4)                         0.14       4.35 r
+  U691/Y (XNOR2X4)                         0.14       4.49 r
+  U690/Y (XNOR2X4)                         0.14       4.63 r
+  U693/Y (XNOR2X4)                         0.14       4.77 r
+  U692/Y (XNOR2X4)                         0.14       4.91 r
+  U695/Y (XNOR2X4)                         0.14       5.05 r
+  U694/Y (XOR2X4)                          0.14       5.19 r
+  U697/Y (XNOR2X4)                         0.12       5.31 r
+  U696/Y (XNOR2X4)                         0.14       5.45 r
+  U699/Y (XNOR2X4)                         0.14       5.59 r
+  U698/Y (XOR2X4)                          0.14       5.73 r
+  U701/Y (XNOR2X4)                         0.12       5.85 r
+  U700/Y (XOR2X4)                          0.14       5.99 r
+  U703/Y (XNOR2X4)                         0.12       6.11 r
+  U702/Y (XOR2X4)                          0.14       6.25 r
+  U705/Y (XNOR2X4)                         0.12       6.37 r
+  U704/Y (XOR2X4)                          0.14       6.51 r
+  U707/Y (XNOR2X4)                         0.12       6.63 r
+  U706/Y (XOR2X4)                          0.14       6.77 r
+  U709/Y (XNOR2X4)                         0.12       6.89 r
+  U708/Y (XOR2X4)                          0.14       7.03 r
+  U793/Y (XNOR2X4)                         0.12       7.15 r
+  U792/Y (XNOR2X4)                         0.15       7.30 r
+  U823/Y (CLKINVX1)                        0.11       7.42 f
+  U824/Y (NAND2X1)                         0.14       7.55 r
+  U681/Y (NAND2X2)                         0.11       7.66 f
+  U831/Y (CLKINVX1)                        0.10       7.76 r
+  U683/Y (NAND2X2)                         0.07       7.82 f
+  U682/Y (NAND2X4)                         0.09       7.91 r
+  U812/Y (CLKINVX1)                        0.08       8.00 f
+  U844/Y (NAND2X1)                         0.15       8.14 r
+  U832/Y (NAND2X4)                         0.10       8.24 f
+  U857/Y (NAND2X1)                         0.16       8.39 r
+  U828/Y (NAND2X4)                         0.08       8.47 f
+  U800/Y (XNOR2X2)                         0.14       8.61 r
+  U711/Y (XNOR2X4)                         0.15       8.77 r
+  U710/Y (XNOR2X4)                         0.14       8.91 r
+  U713/Y (XNOR2X4)                         0.14       9.04 r
+  U712/Y (XNOR2X4)                         0.14       9.18 r
+  U715/Y (XNOR2X4)                         0.14       9.32 r
+  U714/Y (XNOR2X4)                         0.14       9.46 r
+  U717/Y (XNOR2X4)                         0.14       9.60 r
+  U716/Y (XNOR2X4)                         0.14       9.74 r
+  U719/Y (XNOR2X4)                         0.14       9.88 r
+  U718/Y (XNOR2X4)                         0.14      10.02 r
+  U721/Y (XNOR2X4)                         0.14      10.16 r
+  U720/Y (XNOR2X4)                         0.14      10.30 r
+  U723/Y (XNOR2X4)                         0.14      10.44 r
+  U722/Y (XNOR2X4)                         0.14      10.58 r
+  U725/Y (XNOR2X4)                         0.14      10.72 r
+  U724/Y (XNOR2X4)                         0.14      10.85 r
+  U727/Y (XNOR2X4)                         0.14      10.99 r
+  U726/Y (XNOR2X4)                         0.14      11.13 r
+  U729/Y (XNOR2X4)                         0.14      11.27 r
+  U728/Y (XNOR2X4)                         0.14      11.41 r
+  U731/Y (XOR2X4)                          0.14      11.55 r
+  U730/Y (XNOR2X4)                         0.12      11.67 r
+  U733/Y (XNOR2X4)                         0.14      11.81 r
+  U732/Y (XNOR2X4)                         0.14      11.95 r
+  U735/Y (XNOR2X4)                         0.14      12.09 r
+  U734/Y (XNOR2X4)                         0.14      12.23 r
+  U737/Y (XNOR2X4)                         0.14      12.37 r
+  U736/Y (XNOR2X4)                         0.14      12.51 r
+  U739/Y (XNOR2X4)                         0.14      12.65 r
+  U738/Y (XNOR2X4)                         0.14      12.79 r
+  U741/Y (XNOR2X4)                         0.14      12.93 r
+  U740/Y (XNOR2X4)                         0.14      13.06 r
+  U743/Y (XNOR2X4)                         0.14      13.20 r
+  U742/Y (XNOR2X4)                         0.14      13.34 r
+  U745/Y (XNOR2X4)                         0.14      13.48 r
+  U744/Y (XNOR2X4)                         0.14      13.62 r
+  U747/Y (XNOR2X4)                         0.14      13.76 r
+  U746/Y (XNOR2X4)                         0.14      13.90 r
+  U749/Y (XNOR2X4)                         0.14      14.04 r
+  U748/Y (XNOR2X4)                         0.14      14.18 r
+  U751/Y (XNOR2X4)                         0.14      14.32 r
+  U750/Y (XNOR2X4)                         0.14      14.46 r
+  U753/Y (XNOR2X4)                         0.14      14.60 r
+  U752/Y (XNOR2X4)                         0.14      14.74 r
+  U755/Y (XNOR2X4)                         0.14      14.87 r
+  U754/Y (XNOR2X4)                         0.14      15.01 r
+  U757/Y (XNOR2X4)                         0.14      15.15 r
+  U756/Y (XNOR2X4)                         0.14      15.29 r
+  U759/Y (XNOR2X4)                         0.14      15.43 r
+  U758/Y (XNOR2X4)                         0.14      15.57 r
+  U761/Y (XNOR2X4)                         0.14      15.71 r
+  U760/Y (XNOR2X4)                         0.14      15.85 r
+  U763/Y (XNOR2X4)                         0.14      15.99 r
+  U762/Y (XNOR2X4)                         0.14      16.13 r
+  U765/Y (XNOR2X4)                         0.14      16.27 r
+  U764/Y (XNOR2X4)                         0.14      16.41 r
+  U767/Y (XNOR2X4)                         0.14      16.55 r
+  U766/Y (XNOR2X4)                         0.14      16.68 r
+  U769/Y (XNOR2X4)                         0.14      16.82 r
+  U768/Y (XNOR2X4)                         0.14      16.96 r
+  U771/Y (XNOR2X4)                         0.14      17.10 r
+  U770/Y (XNOR2X4)                         0.14      17.24 r
+  U773/Y (XNOR2X4)                         0.14      17.38 r
+  U772/Y (XNOR2X4)                         0.14      17.52 r
+  U775/Y (XNOR2X4)                         0.14      17.66 r
+  U774/Y (XNOR2X4)                         0.14      17.80 r
+  U777/Y (XNOR2X4)                         0.14      17.94 r
+  U776/Y (XNOR2X4)                         0.14      18.08 r
+  U779/Y (XNOR2X4)                         0.14      18.22 r
+  U778/Y (XNOR2X4)                         0.14      18.36 r
+  U781/Y (XNOR2X4)                         0.14      18.49 r
+  U780/Y (XNOR2X4)                         0.14      18.63 r
+  U783/Y (XNOR2X4)                         0.14      18.77 r
+  U782/Y (XNOR2X4)                         0.14      18.91 r
+  U785/Y (XNOR2X4)                         0.14      19.05 r
+  U784/Y (XNOR2X4)                         0.14      19.19 r
+  U787/Y (XNOR2X4)                         0.14      19.33 r
+  U786/Y (XNOR2X4)                         0.14      19.47 r
+  U789/Y (XNOR2X4)                         0.14      19.61 r
+  U788/Y (XNOR2X4)                         0.14      19.75 r
+  U791/Y (XNOR2X4)                         0.14      19.89 r
+  U790/Y (XNOR2X4)                         0.14      20.03 r
+  U845/Y (XNOR2X4)                         0.14      20.17 r
+  U820/Y (XNOR2X4)                         0.13      20.30 r
+  U853/Y (XNOR2X1)                         0.19      20.48 f
+  U854/Y (NOR2X1)                          0.16      20.64 r
+  U856/Y (OR3X2)                           0.12      20.76 r
+  iot_out_reg[0]/D (DFFRX1)                0.00      20.76 r
+  data arrival time                                  20.76
+
+  clock clk (rise edge)                   20.00      20.00
+  clock network delay (ideal)              1.00      21.00
+  clock uncertainty                       -0.10      20.90
+  iot_out_reg[0]/CK (DFFRX1)               0.00      20.90 r
+  library setup time                      -0.12      20.78
+  data required time                                 20.78
+  -----------------------------------------------------------
+  data required time                                 20.78
+  data arrival time                                 -20.76
+  -----------------------------------------------------------
+  slack (MET)                                         0.02
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : IOTDF
+Version: U-2022.12
+Date   : Tue Apr 16 21:06:07 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_data_reg[127]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IOTDF              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_data_reg[127]/CK (DFFRX1)            0.00       1.00 r
+  iot_data_reg[127]/QN (DFFRX1)            0.55       1.55 r
+  U780/Y (XNOR2X1)                         0.35       1.90 r
+  U781/Y (XNOR2X1)                         0.31       2.22 r
+  U903/Y (XNOR2X1)                         0.29       2.51 r
+  U901/Y (XNOR2X1)                         0.29       2.80 r
+  U904/Y (XNOR2X1)                         0.29       3.09 r
+  U902/Y (XNOR2X1)                         0.29       3.39 r
+  U905/Y (XNOR2X1)                         0.29       3.68 r
+  U866/Y (XNOR2X1)                         0.29       3.97 r
+  U884/Y (XNOR2X1)                         0.30       4.27 r
+  U867/Y (XNOR2X1)                         0.30       4.56 r
+  U885/Y (XNOR2X1)                         0.30       4.86 r
+  U868/Y (XNOR2X1)                         0.30       5.16 r
+  U886/Y (XNOR2X1)                         0.30       5.45 r
+  U869/Y (XNOR2X1)                         0.30       5.75 r
+  U887/Y (XNOR2X1)                         0.30       6.05 r
+  U870/Y (XNOR2X1)                         0.30       6.34 r
+  U888/Y (XNOR2X1)                         0.30       6.64 r
+  U871/Y (XNOR2X1)                         0.30       6.94 r
+  U889/Y (XNOR2X1)                         0.30       7.23 r
+  U872/Y (XNOR2X1)                         0.30       7.53 r
+  U890/Y (XNOR2X1)                         0.30       7.83 r
+  U873/Y (XNOR2X1)                         0.30       8.12 r
+  U891/Y (XNOR2X1)                         0.30       8.42 r
+  U874/Y (XNOR2X1)                         0.30       8.71 r
+  U892/Y (XNOR2X1)                         0.30       9.01 r
+  U875/Y (XNOR2X1)                         0.30       9.31 r
+  U893/Y (XNOR2X1)                         0.30       9.60 r
+  U876/Y (XNOR2X1)                         0.30       9.90 r
+  U894/Y (XNOR2X1)                         0.30      10.20 r
+  U877/Y (XNOR2X1)                         0.30      10.49 r
+  U895/Y (XNOR2X1)                         0.30      10.79 r
+  U878/Y (XNOR2X1)                         0.30      11.09 r
+  U896/Y (XNOR2X1)                         0.30      11.38 r
+  U879/Y (XNOR2X1)                         0.30      11.68 r
+  U897/Y (XNOR2X1)                         0.30      11.98 r
+  U880/Y (XNOR2X1)                         0.30      12.27 r
+  U898/Y (XNOR2X1)                         0.30      12.57 r
+  U881/Y (XNOR2X1)                         0.30      12.87 r
+  U899/Y (XNOR2X1)                         0.30      13.16 r
+  U882/Y (XNOR2X1)                         0.30      13.46 r
+  U900/Y (XNOR2X1)                         0.30      13.76 r
+  U883/Y (XNOR2X1)                         0.30      14.05 r
+  U789/Y (XNOR2X1)                         0.30      14.35 r
+  U790/Y (XNOR2X1)                         0.30      14.64 r
+  U791/Y (XNOR2X1)                         0.30      14.94 r
+  U792/Y (XNOR2X1)                         0.30      15.24 r
+  U793/Y (XNOR2X1)                         0.30      15.53 r
+  U794/Y (XNOR2X1)                         0.30      15.83 r
+  U795/Y (XNOR2X1)                         0.30      16.12 r
+  U796/Y (XNOR2X1)                         0.30      16.42 r
+  U797/Y (XNOR2X1)                         0.30      16.71 r
+  U798/Y (XNOR2X1)                         0.30      17.01 r
+  U799/Y (XNOR2X1)                         0.30      17.31 r
+  U800/Y (XNOR2X1)                         0.30      17.60 r
+  U801/Y (XNOR2X1)                         0.30      17.90 r
+  U802/Y (XNOR2X1)                         0.30      18.19 r
+  U803/Y (XNOR2X1)                         0.30      18.49 r
+  U804/Y (XNOR2X1)                         0.30      18.78 r
+  U805/Y (XNOR2X1)                         0.30      19.08 r
+  U806/Y (XNOR2X1)                         0.30      19.38 r
+  U807/Y (XNOR2X1)                         0.30      19.67 r
+  U808/Y (XNOR2X1)                         0.30      19.97 r
+  U809/Y (XNOR2X1)                         0.30      20.26 r
+  U810/Y (XNOR2X1)                         0.30      20.56 r
+  U811/Y (XNOR2X1)                         0.30      20.85 r
+  U812/Y (XNOR2X1)                         0.30      21.15 r
+  U813/Y (XNOR2X1)                         0.30      21.45 r
+  U814/Y (XNOR2X1)                         0.30      21.74 r
+  U815/Y (XNOR2X1)                         0.30      22.04 r
+  U816/Y (XNOR2X1)                         0.30      22.33 r
+  U817/Y (XNOR2X1)                         0.30      22.63 r
+  U818/Y (XNOR2X1)                         0.30      22.92 r
+  U819/Y (XNOR2X1)                         0.30      23.22 r
+  U820/Y (XNOR2X1)                         0.30      23.52 r
+  U821/Y (XNOR2X1)                         0.30      23.81 r
+  U822/Y (XNOR2X1)                         0.30      24.11 r
+  U823/Y (XNOR2X1)                         0.30      24.40 r
+  U824/Y (XNOR2X1)                         0.30      24.70 r
+  U825/Y (XNOR2X1)                         0.30      24.99 r
+  U826/Y (XNOR2X1)                         0.30      25.29 r
+  U827/Y (XNOR2X1)                         0.30      25.59 r
+  U828/Y (XNOR2X1)                         0.30      25.88 r
+  U829/Y (XNOR2X1)                         0.30      26.18 r
+  U830/Y (XNOR2X1)                         0.30      26.47 r
+  U831/Y (XNOR2X1)                         0.30      26.77 r
+  U832/Y (XNOR2X1)                         0.30      27.06 r
+  U833/Y (XNOR2X1)                         0.30      27.36 r
+  U834/Y (XNOR2X1)                         0.30      27.66 r
+  U835/Y (XNOR2X1)                         0.30      27.95 r
+  U836/Y (XNOR2X1)                         0.30      28.25 r
+  U837/Y (XNOR2X1)                         0.30      28.54 r
+  U838/Y (XNOR2X1)                         0.30      28.84 r
+  U839/Y (XNOR2X1)                         0.30      29.13 r
+  U840/Y (XNOR2X1)                         0.30      29.43 r
+  U841/Y (XNOR2X1)                         0.30      29.73 r
+  U842/Y (XNOR2X1)                         0.30      30.02 r
+  U843/Y (XNOR2X1)                         0.30      30.32 r
+  U844/Y (XNOR2X1)                         0.30      30.61 r
+  U845/Y (XNOR2X1)                         0.30      30.91 r
+  U846/Y (XNOR2X1)                         0.30      31.20 r
+  U847/Y (XNOR2X1)                         0.30      31.50 r
+  U848/Y (XNOR2X1)                         0.30      31.80 r
+  U849/Y (XNOR2X1)                         0.30      32.09 r
+  U850/Y (XNOR2X1)                         0.30      32.39 r
+  U851/Y (XNOR2X1)                         0.30      32.68 r
+  U852/Y (XNOR2X1)                         0.30      32.98 r
+  U853/Y (XNOR2X1)                         0.30      33.27 r
+  U854/Y (XNOR2X1)                         0.30      33.57 r
+  U855/Y (XNOR2X1)                         0.30      33.87 r
+  U856/Y (XNOR2X1)                         0.30      34.16 r
+  U857/Y (XNOR2X1)                         0.30      34.46 r
+  U858/Y (XNOR2X1)                         0.30      34.75 r
+  U859/Y (XNOR2X1)                         0.30      35.05 r
+  U860/Y (XNOR2X1)                         0.30      35.34 r
+  U861/Y (XNOR2X1)                         0.30      35.64 r
+  U862/Y (XNOR2X1)                         0.30      35.94 r
+  U863/Y (XNOR2X1)                         0.30      36.23 r
+  U864/Y (XNOR2X1)                         0.30      36.53 r
+  U865/Y (XNOR2X1)                         0.30      36.82 r
+  U782/Y (XNOR2X1)                         0.30      37.12 r
+  U783/Y (XNOR2X1)                         0.30      37.42 r
+  U784/Y (XNOR2X1)                         0.30      37.71 r
+  U785/Y (XNOR2X1)                         0.30      38.01 r
+  U786/Y (XNOR2X1)                         0.30      38.30 r
+  U787/Y (XNOR2X1)                         0.30      38.60 r
+  U788/Y (XNOR2X1)                         0.30      38.89 r
+  U908/Y (XNOR2X1)                         0.23      39.12 f
+  U906/Y (OAI221XL)                        0.28      39.41 r
+  iot_out_reg[0]/D (DFFRX1)                0.00      39.41 r
+  data arrival time                                  39.41
+
+  clock clk (rise edge)                   50.00      50.00
+  clock network delay (ideal)              1.00      51.00
+  clock uncertainty                       -0.10      50.90
+  iot_out_reg[0]/CK (DFFRX1)               0.00      50.90 r
+  library setup time                      -0.14      50.76
+  data required time                                 50.76
+  -----------------------------------------------------------
+  data required time                                 50.76
+  data arrival time                                 -39.41
+  -----------------------------------------------------------
+  slack (MET)                                        11.35
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : IOTDF
+Version: U-2022.12
+Date   : Tue Apr 16 21:16:45 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_data_reg[127]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IOTDF              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_data_reg[127]/CK (DFFRX1)            0.00       1.00 r
+  iot_data_reg[127]/QN (DFFRX1)            0.55       1.55 r
+  U780/Y (XNOR2X1)                         0.35       1.90 r
+  U781/Y (XNOR2X1)                         0.31       2.22 r
+  U903/Y (XNOR2X1)                         0.29       2.51 r
+  U901/Y (XNOR2X1)                         0.29       2.80 r
+  U904/Y (XNOR2X1)                         0.29       3.09 r
+  U902/Y (XNOR2X1)                         0.29       3.39 r
+  U905/Y (XNOR2X1)                         0.29       3.68 r
+  U866/Y (XNOR2X1)                         0.29       3.97 r
+  U884/Y (XNOR2X1)                         0.30       4.27 r
+  U867/Y (XNOR2X1)                         0.30       4.56 r
+  U885/Y (XNOR2X1)                         0.30       4.86 r
+  U868/Y (XNOR2X1)                         0.30       5.16 r
+  U886/Y (XNOR2X1)                         0.30       5.45 r
+  U869/Y (XNOR2X1)                         0.30       5.75 r
+  U887/Y (XNOR2X1)                         0.30       6.05 r
+  U870/Y (XNOR2X1)                         0.30       6.34 r
+  U888/Y (XNOR2X1)                         0.30       6.64 r
+  U871/Y (XNOR2X1)                         0.30       6.94 r
+  U889/Y (XNOR2X1)                         0.30       7.23 r
+  U872/Y (XNOR2X1)                         0.30       7.53 r
+  U890/Y (XNOR2X1)                         0.30       7.83 r
+  U873/Y (XNOR2X1)                         0.30       8.12 r
+  U891/Y (XNOR2X1)                         0.30       8.42 r
+  U874/Y (XNOR2X1)                         0.30       8.71 r
+  U892/Y (XNOR2X1)                         0.30       9.01 r
+  U875/Y (XNOR2X1)                         0.30       9.31 r
+  U893/Y (XNOR2X1)                         0.30       9.60 r
+  U876/Y (XNOR2X1)                         0.30       9.90 r
+  U894/Y (XNOR2X1)                         0.30      10.20 r
+  U877/Y (XNOR2X1)                         0.30      10.49 r
+  U895/Y (XNOR2X1)                         0.30      10.79 r
+  U878/Y (XNOR2X1)                         0.30      11.09 r
+  U896/Y (XNOR2X1)                         0.30      11.38 r
+  U879/Y (XNOR2X1)                         0.30      11.68 r
+  U897/Y (XNOR2X1)                         0.30      11.98 r
+  U880/Y (XNOR2X1)                         0.30      12.27 r
+  U898/Y (XNOR2X1)                         0.30      12.57 r
+  U881/Y (XNOR2X1)                         0.30      12.87 r
+  U899/Y (XNOR2X1)                         0.30      13.16 r
+  U882/Y (XNOR2X1)                         0.30      13.46 r
+  U900/Y (XNOR2X1)                         0.30      13.76 r
+  U883/Y (XNOR2X1)                         0.30      14.05 r
+  U789/Y (XNOR2X1)                         0.30      14.35 r
+  U790/Y (XNOR2X1)                         0.30      14.64 r
+  U791/Y (XNOR2X1)                         0.30      14.94 r
+  U792/Y (XNOR2X1)                         0.30      15.24 r
+  U793/Y (XNOR2X1)                         0.30      15.53 r
+  U794/Y (XNOR2X1)                         0.30      15.83 r
+  U795/Y (XNOR2X1)                         0.30      16.12 r
+  U796/Y (XNOR2X1)                         0.30      16.42 r
+  U797/Y (XNOR2X1)                         0.30      16.71 r
+  U798/Y (XNOR2X1)                         0.30      17.01 r
+  U799/Y (XNOR2X1)                         0.30      17.31 r
+  U800/Y (XNOR2X1)                         0.30      17.60 r
+  U801/Y (XNOR2X1)                         0.30      17.90 r
+  U802/Y (XNOR2X1)                         0.30      18.19 r
+  U803/Y (XNOR2X1)                         0.30      18.49 r
+  U804/Y (XNOR2X1)                         0.30      18.78 r
+  U805/Y (XNOR2X1)                         0.30      19.08 r
+  U806/Y (XNOR2X1)                         0.30      19.38 r
+  U807/Y (XNOR2X1)                         0.30      19.67 r
+  U808/Y (XNOR2X1)                         0.30      19.97 r
+  U809/Y (XNOR2X1)                         0.30      20.26 r
+  U810/Y (XNOR2X1)                         0.30      20.56 r
+  U811/Y (XNOR2X1)                         0.30      20.85 r
+  U812/Y (XNOR2X1)                         0.30      21.15 r
+  U813/Y (XNOR2X1)                         0.30      21.45 r
+  U814/Y (XNOR2X1)                         0.30      21.74 r
+  U815/Y (XNOR2X1)                         0.30      22.04 r
+  U816/Y (XNOR2X1)                         0.30      22.33 r
+  U817/Y (XNOR2X1)                         0.30      22.63 r
+  U818/Y (XNOR2X1)                         0.30      22.92 r
+  U819/Y (XNOR2X1)                         0.30      23.22 r
+  U820/Y (XNOR2X1)                         0.30      23.52 r
+  U821/Y (XNOR2X1)                         0.30      23.81 r
+  U822/Y (XNOR2X1)                         0.30      24.11 r
+  U823/Y (XNOR2X1)                         0.30      24.40 r
+  U824/Y (XNOR2X1)                         0.30      24.70 r
+  U825/Y (XNOR2X1)                         0.30      24.99 r
+  U826/Y (XNOR2X1)                         0.30      25.29 r
+  U827/Y (XNOR2X1)                         0.30      25.59 r
+  U828/Y (XNOR2X1)                         0.30      25.88 r
+  U829/Y (XNOR2X1)                         0.30      26.18 r
+  U830/Y (XNOR2X1)                         0.30      26.47 r
+  U831/Y (XNOR2X1)                         0.30      26.77 r
+  U832/Y (XNOR2X1)                         0.30      27.06 r
+  U833/Y (XNOR2X1)                         0.30      27.36 r
+  U834/Y (XNOR2X1)                         0.30      27.66 r
+  U835/Y (XNOR2X1)                         0.30      27.95 r
+  U836/Y (XNOR2X1)                         0.30      28.25 r
+  U837/Y (XNOR2X1)                         0.30      28.54 r
+  U838/Y (XNOR2X1)                         0.30      28.84 r
+  U839/Y (XNOR2X1)                         0.30      29.13 r
+  U840/Y (XNOR2X1)                         0.30      29.43 r
+  U841/Y (XNOR2X1)                         0.30      29.73 r
+  U842/Y (XNOR2X1)                         0.30      30.02 r
+  U843/Y (XNOR2X1)                         0.30      30.32 r
+  U844/Y (XNOR2X1)                         0.30      30.61 r
+  U845/Y (XNOR2X1)                         0.30      30.91 r
+  U846/Y (XNOR2X1)                         0.30      31.20 r
+  U847/Y (XNOR2X1)                         0.30      31.50 r
+  U848/Y (XNOR2X1)                         0.30      31.80 r
+  U849/Y (XNOR2X1)                         0.30      32.09 r
+  U850/Y (XNOR2X1)                         0.30      32.39 r
+  U851/Y (XNOR2X1)                         0.30      32.68 r
+  U852/Y (XNOR2X1)                         0.30      32.98 r
+  U853/Y (XNOR2X1)                         0.30      33.27 r
+  U854/Y (XNOR2X1)                         0.30      33.57 r
+  U855/Y (XNOR2X1)                         0.30      33.87 r
+  U856/Y (XNOR2X1)                         0.30      34.16 r
+  U857/Y (XNOR2X1)                         0.30      34.46 r
+  U858/Y (XNOR2X1)                         0.30      34.75 r
+  U859/Y (XNOR2X1)                         0.30      35.05 r
+  U860/Y (XNOR2X1)                         0.30      35.34 r
+  U861/Y (XNOR2X1)                         0.30      35.64 r
+  U862/Y (XNOR2X1)                         0.30      35.94 r
+  U863/Y (XNOR2X1)                         0.30      36.23 r
+  U864/Y (XNOR2X1)                         0.30      36.53 r
+  U865/Y (XNOR2X1)                         0.30      36.82 r
+  U782/Y (XNOR2X1)                         0.30      37.12 r
+  U783/Y (XNOR2X1)                         0.30      37.42 r
+  U784/Y (XNOR2X1)                         0.30      37.71 r
+  U785/Y (XNOR2X1)                         0.30      38.01 r
+  U786/Y (XNOR2X1)                         0.30      38.30 r
+  U787/Y (XNOR2X1)                         0.30      38.60 r
+  U788/Y (XNOR2X1)                         0.30      38.89 r
+  U779/Y (XNOR2X1)                         0.23      39.12 f
+  U777/Y (OAI221XL)                        0.28      39.41 r
+  iot_out_reg[0]/D (DFFRX1)                0.00      39.41 r
+  data arrival time                                  39.41
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              1.00     101.00
+  clock uncertainty                       -0.10     100.90
+  iot_out_reg[0]/CK (DFFRX1)               0.00     100.90 r
+  library setup time                      -0.14     100.76
+  data required time                                100.76
+  -----------------------------------------------------------
+  data required time                                100.76
+  data arrival time                                 -39.41
+  -----------------------------------------------------------
+  slack (MET)                                        61.35
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : IOTDF
+Version: U-2022.12
+Date   : Thu Apr 18 00:16:59 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_data_reg[126]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IOTDF              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_data_reg[126]/CK (DFFRX1)            0.00       1.00 r
+  iot_data_reg[126]/QN (DFFRX1)            0.43       1.43 r
+  U697/Y (XOR2X1)                          0.30       1.73 r
+  U893/Y (CLKINVX1)                        0.13       1.86 f
+  U696/Y (XNOR2X1)                         0.17       2.03 r
+  U694/Y (XOR3X1)                          0.45       2.48 r
+  U703/Y (XOR3X1)                          0.44       2.92 r
+  U677/Y (INVX3)                           0.09       3.01 f
+  U676/Y (XOR2X2)                          0.17       3.19 r
+  U714/Y (XNOR3X1)                         0.28       3.46 r
+  U715/Y (XOR3X1)                          0.36       3.83 r
+  U736/Y (XOR2X1)                          0.20       4.03 r
+  U702/Y (XNOR3X1)                         0.40       4.43 r
+  U890/Y (CLKINVX1)                        0.21       4.64 f
+  U745/Y (XOR2X4)                          0.16       4.80 r
+  U701/Y (XOR3X1)                          0.25       5.05 r
+  U700/Y (XOR3X1)                          0.36       5.42 r
+  U804/Y (CLKINVX1)                        0.12       5.54 f
+  U803/Y (NAND2X1)                         0.16       5.70 r
+  U687/Y (NAND2X4)                         0.09       5.79 f
+  U686/Y (XOR3X4)                          0.22       6.01 r
+  U711/Y (XNOR2X4)                         0.14       6.14 r
+  U719/Y (XNOR3X1)                         0.25       6.39 r
+  U699/Y (XOR3X1)                          0.36       6.76 r
+  U726/Y (XOR2X1)                          0.24       6.99 r
+  U716/Y (XOR2X4)                          0.15       7.15 r
+  U729/Y (XOR3X1)                          0.43       7.58 r
+  U689/Y (XOR3X4)                          0.26       7.84 r
+  U688/Y (XOR2X4)                          0.11       7.94 r
+  U781/Y (XOR3X1)                          0.27       8.21 f
+  U728/Y (INVX1)                           0.19       8.40 r
+  U717/Y (NAND2X1)                         0.13       8.53 f
+  U691/Y (NAND2X4)                         0.13       8.67 r
+  U690/Y (XNOR2X4)                         0.14       8.80 r
+  U733/Y (XOR3X1)                          0.39       9.19 r
+  U692/Y (CLKINVX1)                        0.18       9.37 f
+  U693/Y (XNOR2X1)                         0.24       9.61 r
+  U712/Y (CLKINVX1)                        0.18       9.79 f
+  U734/Y (NAND2X1)                         0.16       9.95 r
+  U710/Y (NAND2X2)                         0.11      10.06 f
+  U735/Y (XOR2X1)                          0.17      10.23 f
+  U746/Y (INVX1)                           0.16      10.39 r
+  U679/Y (XOR2X2)                          0.14      10.53 f
+  U678/Y (OAI221X1)                        0.18      10.71 r
+  iot_out_reg[7]/D (DFFRXL)                0.00      10.71 r
+  data arrival time                                  10.71
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              1.00      11.00
+  clock uncertainty                       -0.10      10.90
+  iot_out_reg[7]/CK (DFFRXL)               0.00      10.90 r
+  library setup time                      -0.14      10.76
+  data required time                                 10.76
+  -----------------------------------------------------------
+  data required time                                 10.76
+  data arrival time                                 -10.71
+  -----------------------------------------------------------
+  slack (MET)                                         0.05
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : IOTDF
+Version: U-2022.12
+Date   : Thu Apr 18 00:28:13 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_data_reg[126]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IOTDF              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_data_reg[126]/CK (DFFRHQX1)          0.00       1.00 r
+  iot_data_reg[126]/Q (DFFRHQX1)           0.28       1.28 f
+  U810/Y (CLKINVX1)                        0.22       1.50 r
+  U794/Y (NAND2X2)                         0.07       1.57 f
+  U806/Y (NAND2X1)                         0.22       1.79 r
+  U679/Y (XNOR2X4)                         0.19       1.98 r
+  U678/Y (XOR2X4)                          0.13       2.10 r
+  U721/Y (XNOR2X4)                         0.12       2.22 r
+  U720/Y (XNOR2X4)                         0.14       2.36 r
+  U797/Y (XNOR2X4)                         0.14       2.50 r
+  U796/Y (XNOR2X4)                         0.19       2.68 r
+  U816/Y (NAND2X4)                         0.08       2.77 f
+  U818/Y (NAND2X6)                         0.07       2.84 r
+  U791/Y (XNOR2X4)                         0.12       2.96 r
+  U827/Y (NAND2X1)                         0.11       3.07 f
+  U804/Y (NAND2X1)                         0.25       3.32 r
+  U830/Y (NAND2XL)                         0.20       3.51 f
+  U787/Y (NAND2X4)                         0.12       3.63 r
+  U786/Y (XNOR2X4)                         0.10       3.73 r
+  U789/Y (XOR2X4)                          0.14       3.87 r
+  U788/Y (XNOR2X4)                         0.13       4.01 f
+  U803/Y (CLKINVX1)                        0.10       4.11 r
+  U802/Y (NAND2X1)                         0.08       4.19 f
+  U800/Y (NAND2X1)                         0.21       4.40 r
+  U681/Y (XNOR2X4)                         0.15       4.55 r
+  U680/Y (XNOR2X4)                         0.14       4.68 r
+  U683/Y (XNOR2X4)                         0.14       4.82 r
+  U682/Y (XNOR2X4)                         0.14       4.96 r
+  U685/Y (XNOR2X4)                         0.14       5.10 r
+  U684/Y (XNOR2X4)                         0.14       5.24 r
+  U687/Y (XNOR2X4)                         0.14       5.38 r
+  U686/Y (XNOR2X4)                         0.14       5.52 r
+  U689/Y (XNOR2X4)                         0.14       5.66 r
+  U688/Y (XOR2X4)                          0.14       5.80 r
+  U691/Y (XNOR2X4)                         0.12       5.92 r
+  U690/Y (XOR2X4)                          0.14       6.06 r
+  U693/Y (XNOR2X4)                         0.12       6.18 r
+  U692/Y (XOR2X4)                          0.14       6.32 r
+  U695/Y (XNOR2X4)                         0.12       6.44 r
+  U694/Y (XOR2X4)                          0.14       6.58 r
+  U697/Y (XNOR2X4)                         0.12       6.70 r
+  U696/Y (XOR2X4)                          0.14       6.84 r
+  U699/Y (XNOR2X4)                         0.12       6.96 r
+  U698/Y (XOR2X4)                          0.14       7.10 r
+  U701/Y (XNOR2X4)                         0.12       7.22 r
+  U700/Y (XOR2X4)                          0.14       7.36 r
+  U703/Y (XNOR2X4)                         0.12       7.48 r
+  U702/Y (XOR2X4)                          0.14       7.62 r
+  U705/Y (XNOR2X4)                         0.12       7.75 r
+  U704/Y (XOR2X4)                          0.14       7.88 r
+  U707/Y (XNOR2X4)                         0.12       8.01 r
+  U706/Y (XOR2X4)                          0.14       8.14 r
+  U709/Y (XNOR2X4)                         0.12       8.27 r
+  U708/Y (XOR2X4)                          0.14       8.40 r
+  U711/Y (XNOR2X4)                         0.12       8.53 r
+  U710/Y (XOR2X4)                          0.14       8.67 r
+  U713/Y (XNOR2X4)                         0.12       8.79 r
+  U712/Y (XOR2X4)                          0.14       8.93 r
+  U715/Y (XNOR2X4)                         0.12       9.05 r
+  U714/Y (XOR2X4)                          0.14       9.19 r
+  U717/Y (XNOR2X4)                         0.12       9.31 r
+  U716/Y (XOR2X4)                          0.14       9.45 r
+  U719/Y (XNOR2X4)                         0.12       9.57 r
+  U718/Y (XOR2X4)                          0.14       9.71 r
+  U793/Y (XNOR2X4)                         0.12       9.83 r
+  U792/Y (XNOR2X4)                         0.15       9.98 f
+  U826/Y (NAND2X1)                         0.23      10.21 r
+  U676/Y (NAND2X8)                         0.07      10.28 f
+  U828/Y (NAND2X1)                         0.15      10.44 r
+  U822/Y (NAND2X4)                         0.09      10.52 f
+  U820/Y (CLKINVX1)                        0.08      10.61 r
+  U835/Y (NAND2X1)                         0.07      10.68 f
+  U798/Y (NAND2X1)                         0.25      10.93 r
+  U812/Y (CLKINVX1)                        0.12      11.05 f
+  U850/Y (NAND2X1)                         0.16      11.21 r
+  U723/Y (NAND2X4)                         0.07      11.29 f
+  U722/Y (XNOR2X4)                         0.10      11.38 r
+  U725/Y (XOR2X4)                          0.14      11.52 r
+  U724/Y (XNOR2X4)                         0.12      11.64 r
+  U727/Y (XNOR2X4)                         0.14      11.78 r
+  U726/Y (XNOR2X4)                         0.14      11.92 r
+  U729/Y (XNOR2X4)                         0.14      12.06 r
+  U728/Y (XNOR2X4)                         0.14      12.20 r
+  U731/Y (XNOR2X4)                         0.14      12.34 r
+  U730/Y (XNOR2X4)                         0.14      12.48 r
+  U733/Y (XNOR2X4)                         0.14      12.62 r
+  U732/Y (XNOR2X4)                         0.14      12.76 r
+  U735/Y (XNOR2X4)                         0.14      12.90 r
+  U734/Y (XNOR2X4)                         0.14      13.04 r
+  U737/Y (XNOR2X4)                         0.14      13.17 r
+  U736/Y (XNOR2X4)                         0.14      13.31 r
+  U739/Y (XNOR2X4)                         0.14      13.45 r
+  U738/Y (XNOR2X4)                         0.14      13.59 r
+  U741/Y (XNOR2X4)                         0.14      13.73 r
+  U740/Y (XNOR2X4)                         0.14      13.87 r
+  U743/Y (XNOR2X4)                         0.14      14.01 r
+  U742/Y (XNOR2X4)                         0.14      14.15 r
+  U745/Y (XNOR2X4)                         0.14      14.29 r
+  U744/Y (XNOR2X4)                         0.14      14.43 r
+  U747/Y (XNOR2X4)                         0.14      14.57 r
+  U746/Y (XNOR2X4)                         0.14      14.71 r
+  U749/Y (XNOR2X4)                         0.14      14.85 r
+  U748/Y (XNOR2X4)                         0.14      14.99 r
+  U751/Y (XNOR2X4)                         0.14      15.12 r
+  U750/Y (XNOR2X4)                         0.14      15.26 r
+  U753/Y (XNOR2X4)                         0.14      15.40 r
+  U752/Y (XNOR2X4)                         0.14      15.54 r
+  U755/Y (XNOR2X4)                         0.14      15.68 r
+  U754/Y (XNOR2X4)                         0.14      15.82 r
+  U757/Y (XNOR2X4)                         0.14      15.96 r
+  U756/Y (XNOR2X4)                         0.14      16.10 r
+  U759/Y (XNOR2X4)                         0.14      16.24 r
+  U758/Y (XNOR2X4)                         0.14      16.38 r
+  U761/Y (XNOR2X4)                         0.14      16.52 r
+  U760/Y (XNOR2X4)                         0.14      16.66 r
+  U763/Y (XNOR2X4)                         0.14      16.80 r
+  U762/Y (XNOR2X4)                         0.14      16.93 r
+  U765/Y (XNOR2X4)                         0.14      17.07 r
+  U764/Y (XNOR2X4)                         0.14      17.21 r
+  U767/Y (XNOR2X4)                         0.14      17.35 r
+  U766/Y (XNOR2X4)                         0.14      17.49 r
+  U769/Y (XNOR2X4)                         0.14      17.63 r
+  U768/Y (XNOR2X4)                         0.14      17.77 r
+  U771/Y (XNOR2X4)                         0.14      17.91 r
+  U770/Y (XNOR2X4)                         0.14      18.05 r
+  U773/Y (XNOR2X4)                         0.14      18.19 r
+  U772/Y (XNOR2X4)                         0.14      18.33 r
+  U775/Y (XNOR2X4)                         0.14      18.47 r
+  U774/Y (XNOR2X4)                         0.14      18.61 r
+  U777/Y (XNOR2X4)                         0.14      18.74 r
+  U776/Y (XNOR2X4)                         0.14      18.88 r
+  U779/Y (XNOR2X4)                         0.14      19.02 r
+  U778/Y (XNOR2X4)                         0.14      19.16 r
+  U781/Y (XNOR2X4)                         0.14      19.30 r
+  U780/Y (XNOR2X4)                         0.14      19.44 r
+  U783/Y (XNOR2X4)                         0.14      19.58 r
+  U782/Y (XNOR2X4)                         0.14      19.72 r
+  U785/Y (XNOR2X4)                         0.14      19.86 r
+  U784/Y (XNOR2X4)                         0.14      20.00 r
+  U836/Y (XNOR2X4)                         0.14      20.14 r
+  U815/Y (XNOR2X4)                         0.13      20.27 r
+  U845/Y (XNOR2X1)                         0.19      20.45 f
+  U846/Y (NOR2X1)                          0.16      20.61 r
+  U848/Y (OR3X2)                           0.12      20.73 r
+  iot_out_reg[0]/D (DFFRX1)                0.00      20.73 r
+  data arrival time                                  20.73
+
+  clock clk (rise edge)                   20.00      20.00
+  clock network delay (ideal)              1.00      21.00
+  clock uncertainty                       -0.10      20.90
+  iot_out_reg[0]/CK (DFFRX1)               0.00      20.90 r
+  library setup time                      -0.12      20.78
+  data required time                                 20.78
+  -----------------------------------------------------------
+  data required time                                 20.78
+  data arrival time                                 -20.73
+  -----------------------------------------------------------
+  slack (MET)                                         0.05
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : IOTDF
+Version: U-2022.12
+Date   : Thu Apr 18 00:43:00 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_data_reg[127]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IOTDF              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_data_reg[127]/CK (DFFRX1)            0.00       1.00 r
+  iot_data_reg[127]/QN (DFFRX1)            0.55       1.55 r
+  U777/Y (XNOR2X1)                         0.35       1.90 r
+  U778/Y (XNOR2X1)                         0.31       2.22 r
+  U900/Y (XNOR2X1)                         0.29       2.51 r
+  U898/Y (XNOR2X1)                         0.29       2.80 r
+  U901/Y (XNOR2X1)                         0.29       3.09 r
+  U899/Y (XNOR2X1)                         0.29       3.39 r
+  U902/Y (XNOR2X1)                         0.29       3.68 r
+  U844/Y (XNOR2X1)                         0.29       3.97 r
+  U871/Y (XNOR2X1)                         0.30       4.27 r
+  U845/Y (XNOR2X1)                         0.30       4.56 r
+  U872/Y (XNOR2X1)                         0.30       4.86 r
+  U846/Y (XNOR2X1)                         0.30       5.16 r
+  U873/Y (XNOR2X1)                         0.30       5.45 r
+  U847/Y (XNOR2X1)                         0.30       5.75 r
+  U874/Y (XNOR2X1)                         0.30       6.05 r
+  U848/Y (XNOR2X1)                         0.30       6.34 r
+  U875/Y (XNOR2X1)                         0.30       6.64 r
+  U849/Y (XNOR2X1)                         0.30       6.94 r
+  U876/Y (XNOR2X1)                         0.30       7.23 r
+  U850/Y (XNOR2X1)                         0.30       7.53 r
+  U877/Y (XNOR2X1)                         0.30       7.83 r
+  U851/Y (XNOR2X1)                         0.30       8.12 r
+  U878/Y (XNOR2X1)                         0.30       8.42 r
+  U852/Y (XNOR2X1)                         0.30       8.71 r
+  U879/Y (XNOR2X1)                         0.30       9.01 r
+  U853/Y (XNOR2X1)                         0.30       9.31 r
+  U880/Y (XNOR2X1)                         0.30       9.60 r
+  U854/Y (XNOR2X1)                         0.30       9.90 r
+  U881/Y (XNOR2X1)                         0.30      10.20 r
+  U855/Y (XNOR2X1)                         0.30      10.49 r
+  U882/Y (XNOR2X1)                         0.30      10.79 r
+  U856/Y (XNOR2X1)                         0.30      11.09 r
+  U883/Y (XNOR2X1)                         0.30      11.38 r
+  U857/Y (XNOR2X1)                         0.30      11.68 r
+  U884/Y (XNOR2X1)                         0.30      11.98 r
+  U858/Y (XNOR2X1)                         0.30      12.27 r
+  U885/Y (XNOR2X1)                         0.30      12.57 r
+  U859/Y (XNOR2X1)                         0.30      12.87 r
+  U886/Y (XNOR2X1)                         0.30      13.16 r
+  U860/Y (XNOR2X1)                         0.30      13.46 r
+  U887/Y (XNOR2X1)                         0.30      13.76 r
+  U861/Y (XNOR2X1)                         0.30      14.05 r
+  U888/Y (XNOR2X1)                         0.30      14.35 r
+  U862/Y (XNOR2X1)                         0.30      14.65 r
+  U889/Y (XNOR2X1)                         0.30      14.94 r
+  U863/Y (XNOR2X1)                         0.30      15.24 r
+  U890/Y (XNOR2X1)                         0.30      15.54 r
+  U864/Y (XNOR2X1)                         0.30      15.83 r
+  U891/Y (XNOR2X1)                         0.30      16.13 r
+  U865/Y (XNOR2X1)                         0.30      16.43 r
+  U892/Y (XNOR2X1)                         0.30      16.72 r
+  U866/Y (XNOR2X1)                         0.30      17.02 r
+  U893/Y (XNOR2X1)                         0.30      17.32 r
+  U867/Y (XNOR2X1)                         0.30      17.61 r
+  U894/Y (XNOR2X1)                         0.30      17.91 r
+  U868/Y (XNOR2X1)                         0.30      18.20 r
+  U895/Y (XNOR2X1)                         0.30      18.50 r
+  U869/Y (XNOR2X1)                         0.30      18.80 r
+  U896/Y (XNOR2X1)                         0.30      19.09 r
+  U870/Y (XNOR2X1)                         0.30      19.39 r
+  U897/Y (XNOR2X1)                         0.30      19.69 r
+  U786/Y (XNOR2X1)                         0.30      19.98 r
+  U787/Y (XNOR2X1)                         0.30      20.28 r
+  U788/Y (XNOR2X1)                         0.30      20.58 r
+  U789/Y (XNOR2X1)                         0.30      20.87 r
+  U790/Y (XNOR2X1)                         0.30      21.17 r
+  U791/Y (XNOR2X1)                         0.30      21.46 r
+  U792/Y (XNOR2X1)                         0.30      21.76 r
+  U793/Y (XNOR2X1)                         0.30      22.05 r
+  U794/Y (XNOR2X1)                         0.30      22.35 r
+  U795/Y (XNOR2X1)                         0.30      22.65 r
+  U796/Y (XNOR2X1)                         0.30      22.94 r
+  U797/Y (XNOR2X1)                         0.30      23.24 r
+  U798/Y (XNOR2X1)                         0.30      23.53 r
+  U799/Y (XNOR2X1)                         0.30      23.83 r
+  U800/Y (XNOR2X1)                         0.30      24.12 r
+  U801/Y (XNOR2X1)                         0.30      24.42 r
+  U802/Y (XNOR2X1)                         0.30      24.72 r
+  U803/Y (XNOR2X1)                         0.30      25.01 r
+  U804/Y (XNOR2X1)                         0.30      25.31 r
+  U805/Y (XNOR2X1)                         0.30      25.60 r
+  U806/Y (XNOR2X1)                         0.30      25.90 r
+  U807/Y (XNOR2X1)                         0.30      26.19 r
+  U808/Y (XNOR2X1)                         0.30      26.49 r
+  U809/Y (XNOR2X1)                         0.30      26.79 r
+  U810/Y (XNOR2X1)                         0.30      27.08 r
+  U811/Y (XNOR2X1)                         0.30      27.38 r
+  U812/Y (XNOR2X1)                         0.30      27.67 r
+  U813/Y (XNOR2X1)                         0.30      27.97 r
+  U814/Y (XNOR2X1)                         0.30      28.26 r
+  U815/Y (XNOR2X1)                         0.30      28.56 r
+  U816/Y (XNOR2X1)                         0.30      28.86 r
+  U817/Y (XNOR2X1)                         0.30      29.15 r
+  U818/Y (XNOR2X1)                         0.30      29.45 r
+  U819/Y (XNOR2X1)                         0.30      29.74 r
+  U820/Y (XNOR2X1)                         0.30      30.04 r
+  U821/Y (XNOR2X1)                         0.30      30.33 r
+  U822/Y (XNOR2X1)                         0.30      30.63 r
+  U823/Y (XNOR2X1)                         0.30      30.93 r
+  U824/Y (XNOR2X1)                         0.30      31.22 r
+  U825/Y (XNOR2X1)                         0.30      31.52 r
+  U826/Y (XNOR2X1)                         0.30      31.81 r
+  U827/Y (XNOR2X1)                         0.30      32.11 r
+  U828/Y (XNOR2X1)                         0.30      32.40 r
+  U829/Y (XNOR2X1)                         0.30      32.70 r
+  U830/Y (XNOR2X1)                         0.30      33.00 r
+  U831/Y (XNOR2X1)                         0.30      33.29 r
+  U832/Y (XNOR2X1)                         0.30      33.59 r
+  U833/Y (XNOR2X1)                         0.30      33.88 r
+  U834/Y (XNOR2X1)                         0.30      34.18 r
+  U835/Y (XNOR2X1)                         0.30      34.47 r
+  U836/Y (XNOR2X1)                         0.30      34.77 r
+  U837/Y (XNOR2X1)                         0.30      35.07 r
+  U838/Y (XNOR2X1)                         0.30      35.36 r
+  U839/Y (XNOR2X1)                         0.30      35.66 r
+  U840/Y (XNOR2X1)                         0.30      35.95 r
+  U841/Y (XNOR2X1)                         0.30      36.25 r
+  U842/Y (XNOR2X1)                         0.30      36.54 r
+  U843/Y (XNOR2X1)                         0.30      36.84 r
+  U779/Y (XNOR2X1)                         0.30      37.14 r
+  U780/Y (XNOR2X1)                         0.30      37.43 r
+  U781/Y (XNOR2X1)                         0.30      37.73 r
+  U782/Y (XNOR2X1)                         0.30      38.02 r
+  U783/Y (XNOR2X1)                         0.30      38.32 r
+  U784/Y (XNOR2X1)                         0.30      38.61 r
+  U785/Y (XNOR2X1)                         0.30      38.91 r
+  U776/Y (XNOR2X1)                         0.23      39.14 f
+  U774/Y (OAI221XL)                        0.28      39.42 r
+  iot_out_reg[0]/D (DFFRX1)                0.00      39.42 r
+  data arrival time                                  39.42
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              1.00     101.00
+  clock uncertainty                       -0.10     100.90
+  iot_out_reg[0]/CK (DFFRX1)               0.00     100.90 r
+  library setup time                      -0.14     100.76
+  data required time                                100.76
+  -----------------------------------------------------------
+  data required time                                100.76
+  data arrival time                                 -39.42
+  -----------------------------------------------------------
+  slack (MET)                                        61.33
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : IOTDF
+Version: U-2022.12
+Date   : Thu Apr 18 01:01:10 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_data_reg[127]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IOTDF              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_data_reg[127]/CK (DFFRX1)            0.00       1.00 r
+  iot_data_reg[127]/QN (DFFRX1)            0.43       1.43 r
+  U646/Y (XNOR2X1)                         0.28       1.71 r
+  U645/Y (XNOR2X1)                         0.30       2.01 r
+  U768/Y (XNOR2X1)                         0.29       2.30 r
+  U766/Y (XNOR2X1)                         0.29       2.59 r
+  U769/Y (XNOR2X1)                         0.29       2.87 r
+  U767/Y (XNOR2X1)                         0.29       3.16 r
+  U770/Y (XNOR2X1)                         0.29       3.45 r
+  U731/Y (XNOR2X1)                         0.29       3.73 r
+  U749/Y (XNOR2X1)                         0.29       4.02 r
+  U732/Y (XNOR2X1)                         0.29       4.31 r
+  U750/Y (XNOR2X1)                         0.29       4.60 r
+  U733/Y (XNOR2X1)                         0.29       4.89 r
+  U751/Y (XNOR2X1)                         0.29       5.18 r
+  U734/Y (XNOR2X1)                         0.29       5.47 r
+  U752/Y (XNOR2X1)                         0.29       5.76 r
+  U735/Y (XNOR2X1)                         0.29       6.05 r
+  U753/Y (XNOR2X1)                         0.29       6.34 r
+  U736/Y (XNOR2X1)                         0.29       6.62 r
+  U754/Y (XNOR2X1)                         0.29       6.91 r
+  U737/Y (XNOR2X1)                         0.29       7.20 r
+  U755/Y (XNOR2X1)                         0.29       7.49 r
+  U738/Y (XNOR2X1)                         0.29       7.78 r
+  U756/Y (XNOR2X1)                         0.29       8.07 r
+  U739/Y (XNOR2X1)                         0.29       8.36 r
+  U757/Y (XNOR2X1)                         0.29       8.65 r
+  U740/Y (XNOR2X1)                         0.29       8.94 r
+  U758/Y (XNOR2X1)                         0.29       9.23 r
+  U741/Y (XNOR2X1)                         0.29       9.52 r
+  U759/Y (XNOR2X1)                         0.29       9.81 r
+  U742/Y (XNOR2X1)                         0.29      10.09 r
+  U760/Y (XNOR2X1)                         0.29      10.38 r
+  U743/Y (XNOR2X1)                         0.29      10.67 r
+  U761/Y (XNOR2X1)                         0.29      10.96 r
+  U744/Y (XNOR2X1)                         0.29      11.25 r
+  U762/Y (XNOR2X1)                         0.29      11.54 r
+  U745/Y (XNOR2X1)                         0.29      11.83 r
+  U763/Y (XNOR2X1)                         0.29      12.12 r
+  U746/Y (XNOR2X1)                         0.29      12.41 r
+  U764/Y (XNOR2X1)                         0.29      12.70 r
+  U747/Y (XNOR2X1)                         0.29      12.99 r
+  U765/Y (XNOR2X1)                         0.29      13.28 r
+  U748/Y (XNOR2X1)                         0.29      13.57 r
+  U654/Y (XNOR2X1)                         0.29      13.85 r
+  U655/Y (XNOR2X1)                         0.29      14.14 r
+  U656/Y (XNOR2X1)                         0.29      14.43 r
+  U657/Y (XNOR2X1)                         0.29      14.72 r
+  U658/Y (XNOR2X1)                         0.29      15.01 r
+  U659/Y (XNOR2X1)                         0.29      15.30 r
+  U660/Y (XNOR2X1)                         0.29      15.58 r
+  U661/Y (XNOR2X1)                         0.29      15.87 r
+  U662/Y (XNOR2X1)                         0.29      16.16 r
+  U663/Y (XNOR2X1)                         0.29      16.45 r
+  U664/Y (XNOR2X1)                         0.29      16.74 r
+  U665/Y (XNOR2X1)                         0.29      17.03 r
+  U666/Y (XNOR2X1)                         0.29      17.31 r
+  U667/Y (XNOR2X1)                         0.29      17.60 r
+  U668/Y (XNOR2X1)                         0.29      17.89 r
+  U669/Y (XNOR2X1)                         0.29      18.18 r
+  U670/Y (XNOR2X1)                         0.29      18.47 r
+  U671/Y (XNOR2X1)                         0.29      18.76 r
+  U672/Y (XNOR2X1)                         0.29      19.04 r
+  U673/Y (XNOR2X1)                         0.29      19.33 r
+  U674/Y (XNOR2X1)                         0.29      19.62 r
+  U675/Y (XNOR2X1)                         0.29      19.91 r
+  U676/Y (XNOR2X1)                         0.29      20.20 r
+  U677/Y (XNOR2X1)                         0.29      20.49 r
+  U678/Y (XNOR2X1)                         0.29      20.77 r
+  U679/Y (XNOR2X1)                         0.29      21.06 r
+  U680/Y (XNOR2X1)                         0.29      21.35 r
+  U681/Y (XNOR2X1)                         0.29      21.64 r
+  U682/Y (XNOR2X1)                         0.29      21.93 r
+  U683/Y (XNOR2X1)                         0.29      22.22 r
+  U684/Y (XNOR2X1)                         0.29      22.50 r
+  U685/Y (XNOR2X1)                         0.29      22.79 r
+  U686/Y (XNOR2X1)                         0.29      23.08 r
+  U687/Y (XNOR2X1)                         0.29      23.37 r
+  U688/Y (XNOR2X1)                         0.29      23.66 r
+  U689/Y (XNOR2X1)                         0.29      23.95 r
+  U690/Y (XNOR2X1)                         0.29      24.23 r
+  U691/Y (XNOR2X1)                         0.29      24.52 r
+  U692/Y (XNOR2X1)                         0.29      24.81 r
+  U693/Y (XNOR2X1)                         0.29      25.10 r
+  U694/Y (XNOR2X1)                         0.29      25.39 r
+  U695/Y (XNOR2X1)                         0.29      25.68 r
+  U696/Y (XNOR2X1)                         0.29      25.96 r
+  U697/Y (XNOR2X1)                         0.29      26.25 r
+  U698/Y (XNOR2X1)                         0.29      26.54 r
+  U699/Y (XNOR2X1)                         0.29      26.83 r
+  U700/Y (XNOR2X1)                         0.29      27.12 r
+  U701/Y (XNOR2X1)                         0.29      27.41 r
+  U702/Y (XNOR2X1)                         0.29      27.69 r
+  U703/Y (XNOR2X1)                         0.29      27.98 r
+  U704/Y (XNOR2X1)                         0.29      28.27 r
+  U705/Y (XNOR2X1)                         0.29      28.56 r
+  U706/Y (XNOR2X1)                         0.29      28.85 r
+  U707/Y (XNOR2X1)                         0.29      29.14 r
+  U708/Y (XNOR2X1)                         0.29      29.42 r
+  U709/Y (XNOR2X1)                         0.29      29.71 r
+  U710/Y (XNOR2X1)                         0.29      30.00 r
+  U711/Y (XNOR2X1)                         0.29      30.29 r
+  U712/Y (XNOR2X1)                         0.29      30.58 r
+  U713/Y (XNOR2X1)                         0.29      30.87 r
+  U714/Y (XNOR2X1)                         0.29      31.15 r
+  U715/Y (XNOR2X1)                         0.29      31.44 r
+  U716/Y (XNOR2X1)                         0.29      31.73 r
+  U717/Y (XNOR2X1)                         0.29      32.02 r
+  U718/Y (XNOR2X1)                         0.29      32.31 r
+  U719/Y (XNOR2X1)                         0.29      32.60 r
+  U720/Y (XNOR2X1)                         0.29      32.88 r
+  U721/Y (XNOR2X1)                         0.29      33.17 r
+  U722/Y (XNOR2X1)                         0.29      33.46 r
+  U723/Y (XNOR2X1)                         0.29      33.75 r
+  U724/Y (XNOR2X1)                         0.29      34.04 r
+  U725/Y (XNOR2X1)                         0.29      34.33 r
+  U726/Y (XNOR2X1)                         0.29      34.61 r
+  U727/Y (XNOR2X1)                         0.29      34.90 r
+  U728/Y (XNOR2X1)                         0.29      35.19 r
+  U729/Y (XNOR2X1)                         0.29      35.48 r
+  U730/Y (XNOR2X1)                         0.29      35.77 r
+  U647/Y (XNOR2X1)                         0.29      36.06 r
+  U648/Y (XNOR2X1)                         0.29      36.34 r
+  U649/Y (XNOR2X1)                         0.29      36.63 r
+  U650/Y (XNOR2X1)                         0.29      36.92 r
+  U651/Y (XNOR2X1)                         0.29      37.21 r
+  U652/Y (XNOR2X1)                         0.29      37.50 r
+  U653/Y (XNOR2X1)                         0.29      37.79 r
+  U644/Y (XNOR2X1)                         0.22      38.01 f
+  U642/Y (OAI221XL)                        0.28      38.29 r
+  iot_out_reg[0]/D (DFFRX1)                0.00      38.29 r
+  data arrival time                                  38.29
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              1.00     101.00
+  clock uncertainty                       -0.10     100.90
+  iot_out_reg[0]/CK (DFFRX1)               0.00     100.90 r
+  library setup time                      -0.14     100.76
+  data required time                                100.76
+  -----------------------------------------------------------
+  data required time                                100.76
+  data arrival time                                 -38.29
+  -----------------------------------------------------------
+  slack (MET)                                        62.47
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : IOTDF
+Version: U-2022.12
+Date   : Thu Apr 18 01:08:07 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_data_reg[124]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  IOTDF              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_data_reg[124]/CK (DFFRX1)            0.00       1.00 r
+  iot_data_reg[124]/Q (DFFRX1)             0.48       1.48 r
+  U561/Y (CLKXOR2X4)                       0.23       1.72 f
+  U560/Y (XNOR2X4)                         0.11       1.82 r
+  U571/Y (XOR3X1)                          0.48       2.30 r
+  U584/Y (CLKINVX1)                        0.24       2.54 f
+  U582/Y (NAND2X1)                         0.18       2.72 r
+  U580/Y (NAND2X2)                         0.14       2.85 f
+  U558/Y (XNOR2X4)                         0.15       3.00 r
+  U557/Y (XNOR3X4)                         0.19       3.19 r
+  U623/Y (XOR3X1)                          0.33       3.52 r
+  U652/Y (XOR2X1)                          0.20       3.72 r
+  U579/Y (XNOR3X1)                         0.39       4.12 r
+  U789/Y (CLKINVX1)                        0.21       4.32 f
+  U656/Y (XOR2X4)                          0.16       4.48 r
+  U578/Y (XOR3X1)                          0.25       4.74 r
+  U577/Y (XOR3X1)                          0.36       5.10 r
+  U714/Y (CLKINVX1)                        0.12       5.22 f
+  U713/Y (NAND2X1)                         0.16       5.38 r
+  U567/Y (NAND2X4)                         0.09       5.47 f
+  U566/Y (XOR3X4)                          0.20       5.68 f
+  U595/Y (INVX3)                           0.08       5.76 r
+  U599/Y (NAND2X1)                         0.07       5.83 f
+  U600/Y (NAND2X1)                         0.20       6.03 r
+  U602/Y (XNOR3X1)                         0.28       6.31 r
+  U611/Y (XOR3X1)                          0.36       6.67 r
+  U631/Y (XOR2X1)                          0.24       6.91 r
+  U624/Y (XOR2X4)                          0.15       7.06 r
+  U550/Y (XOR3X2)                          0.27       7.33 r
+  U549/Y (XNOR3X2)                         0.25       7.58 r
+  U576/Y (CLKINVX1)                        0.09       7.68 f
+  U575/Y (NAND2X1)                         0.15       7.83 r
+  U555/Y (NAND2X4)                         0.09       7.92 f
+  U554/Y (XOR2X4)                          0.09       8.01 r
+  U639/Y (CLKINVX1)                        0.15       8.16 f
+  U638/Y (NAND2X1)                         0.14       8.30 r
+  U569/Y (AND2X4)                          0.11       8.41 r
+  U573/Y (CLKINVX1)                        0.20       8.61 f
+  U613/Y (NAND2X1)                         0.21       8.81 r
+  U565/Y (NAND2X4)                         0.11       8.92 f
+  U564/Y (XOR3X4)                          0.21       9.14 r
+  U589/Y (CLKINVX1)                        0.13       9.26 f
+  U572/Y (XOR3X1)                          0.40       9.67 r
+  U568/Y (XOR3X4)                          0.22       9.89 r
+  U790/Y (CLKINVX1)                        0.09       9.98 f
+  U666/Y (XNOR3X1)                         0.28      10.26 f
+  U608/Y (XNOR3X2)                         0.15      10.41 f
+  U587/Y (OR2X1)                           0.18      10.59 f
+  U585/Y (NAND3X1)                         0.12      10.72 r
+  iot_out_reg[0]/D (DFFRX1)                0.00      10.72 r
+  data arrival time                                  10.72
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              1.00      11.00
+  clock uncertainty                       -0.10      10.90
+  iot_out_reg[0]/CK (DFFRX1)               0.00      10.90 r
+  library setup time                      -0.13      10.77
+  data required time                                 10.77
+  -----------------------------------------------------------
+  data required time                                 10.77
+  data arrival time                                 -10.72
+  -----------------------------------------------------------
+  slack (MET)                                         0.06
+
+

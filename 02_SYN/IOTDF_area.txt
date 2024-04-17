@@ -1,0 +1,2119 @@
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Tue Apr 16 20:18:40 2024
+****************************************
+
+Library(s) Used:
+
+    typical (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/typical.db)
+
+Number of ports:                         1554
+Number of nets:                          4130
+Number of cells:                         2094
+Number of combinational cells:           1727
+Number of sequential cells:               275
+Number of macros/black boxes:               0
+Number of buf/inv:                        229
+Number of references:                     102
+
+Combinational area:              29916.675487
+Buf/Inv area:                     1144.047588
+Noncombinational area:            8906.257523
+Macro/Black Box area:                0.000000
+Net Interconnect area:          257087.968231
+
+Total cell area:                 38822.933009
+Total area:                     295910.901241
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Tue Apr 16 20:41:52 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U67/A1N U67/Y 
+Information: Timing loop detected. (OPT-150)
+	U68/A1N U68/Y 
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U67'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U68'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U69'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U70'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U71'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U72'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U74'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U62'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U53'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U56'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U54'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U57'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U58'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U55'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U63'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U64'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U65'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U66'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U45'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U47'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U46'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U48'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U49'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U50'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U60'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U51'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U52'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U61'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U59'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U35'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U36'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U37'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U38'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U39'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U40'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U41'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U27'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U28'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U29'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U30'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U31'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U32'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U33'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U34'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U19'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U20'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U21'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U22'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U23'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U24'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U25'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U26'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U12'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U13'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U16'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U17'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U18'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U3'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U5'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U6'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U8'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U9'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U10'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U115'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U116'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U117'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U118'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U119'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U120'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U121'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U107'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U108'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U109'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U110'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U111'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U112'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U113'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U114'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U99'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U100'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U101'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U102'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U103'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U105'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U106'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U91'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U92'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U93'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U94'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U95'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U96'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U98'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U84'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U86'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U85'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U87'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U88'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U89'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U90'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U76'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U77'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U78'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U80'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U81'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U82'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U83'
+         to break a timing loop. (OPT-314)
+Library(s) Used:
+
+    typical (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/typical.db)
+
+Number of ports:                         1554
+Number of nets:                          4296
+Number of cells:                         2274
+Number of combinational cells:           1907
+Number of sequential cells:               275
+Number of macros/black boxes:               0
+Number of buf/inv:                        439
+Number of references:                     106
+
+Combinational area:              31556.363916
+Buf/Inv area:                     2193.040772
+Noncombinational area:            9001.311928
+Macro/Black Box area:                0.000000
+Net Interconnect area:          267961.354492
+
+Total cell area:                 40557.675844
+Total area:                     308519.030336
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Tue Apr 16 20:54:09 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U123/A1N U123/Y 
+Information: Timing loop detected. (OPT-150)
+	U124/A1N U124/Y 
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U67'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U68'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U69'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U70'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U71'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U72'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U74'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U59'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U60'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U61'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U62'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U63'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U64'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U65'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U66'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U51'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U52'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U53'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U54'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U55'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U56'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U57'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U58'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U45'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U46'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U47'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U48'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U49'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U50'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U35'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U36'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U37'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U38'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U39'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U40'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U41'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U27'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U28'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U29'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U30'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U31'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U32'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U33'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U34'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U19'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U20'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U21'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U22'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U23'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U24'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U25'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U26'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U12'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U13'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U16'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U17'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U18'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U3'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U5'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U6'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U8'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U9'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U10'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U115'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U116'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U117'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U118'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U119'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U120'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U121'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U107'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U108'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U109'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U110'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U111'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U112'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U113'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U114'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U99'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U100'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U101'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U102'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U103'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U105'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U106'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U91'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U92'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U93'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U94'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U95'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U96'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U98'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U78'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U80'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U81'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U82'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U86'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U89'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U90'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U87'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U88'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U83'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U84'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U85'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U76'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U77'
+         to break a timing loop. (OPT-314)
+Library(s) Used:
+
+    typical (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/typical.db)
+
+Number of ports:                         1554
+Number of nets:                          3897
+Number of cells:                         1967
+Number of combinational cells:           1600
+Number of sequential cells:               275
+Number of macros/black boxes:               0
+Number of buf/inv:                        176
+Number of references:                      92
+
+Combinational area:              29415.942562
+Buf/Inv area:                      986.189397
+Noncombinational area:            8899.467918
+Macro/Black Box area:                0.000000
+Net Interconnect area:          251674.606354
+
+Total cell area:                 38315.410480
+Total area:                     289990.016834
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Tue Apr 16 21:05:28 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U123/A1N U123/Y 
+Information: Timing loop detected. (OPT-150)
+	U124/A1N U124/Y 
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U67'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U68'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U69'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U70'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U71'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U72'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U74'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U59'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U60'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U61'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U62'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U63'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U64'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U65'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U66'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U51'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U52'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U53'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U54'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U55'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U56'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U57'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U58'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U45'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U46'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U47'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U48'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U49'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U50'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U35'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U36'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U37'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U38'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U39'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U40'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U41'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U27'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U28'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U29'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U30'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U31'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U32'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U33'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U34'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U19'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U20'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U21'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U22'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U23'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U24'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U25'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U26'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U12'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U13'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U16'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U17'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U18'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U3'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U5'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U6'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U8'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U9'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U10'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U115'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U116'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U117'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U118'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U119'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U120'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U121'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U107'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U108'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U109'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U110'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U111'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U112'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U113'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U114'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U99'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U100'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U101'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U102'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U103'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U105'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U106'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U91'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U92'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U93'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U94'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U95'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U96'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U98'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U83'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U84'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U85'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U86'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U87'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U88'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U89'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U90'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U76'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U77'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U78'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U80'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U81'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U82'
+         to break a timing loop. (OPT-314)
+Library(s) Used:
+
+    typical (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/typical.db)
+
+Number of ports:                         1554
+Number of nets:                          3848
+Number of cells:                         1937
+Number of combinational cells:           1570
+Number of sequential cells:               275
+Number of macros/black boxes:               0
+Number of buf/inv:                        170
+Number of references:                      76
+
+Combinational area:              27097.294153
+Buf/Inv area:                      960.728398
+Noncombinational area:            8896.073116
+Macro/Black Box area:                0.000000
+Net Interconnect area:          249341.261688
+
+Total cell area:                 35993.367270
+Total area:                     285334.628958
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Tue Apr 16 21:16:06 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U123/A1N U123/Y 
+Information: Timing loop detected. (OPT-150)
+	U124/A1N U124/Y 
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U67'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U68'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U69'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U70'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U71'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U72'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U74'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U59'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U60'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U61'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U62'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U63'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U64'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U65'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U66'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U51'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U52'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U53'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U54'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U55'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U56'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U57'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U58'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U45'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U46'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U47'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U48'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U49'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U50'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U35'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U36'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U37'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U38'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U39'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U40'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U41'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U27'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U28'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U29'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U30'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U31'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U32'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U33'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U34'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U19'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U20'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U21'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U22'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U23'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U24'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U25'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U26'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U12'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U13'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U16'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U17'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U18'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U3'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U5'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U6'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U8'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U9'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U10'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U115'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U116'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U117'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U118'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U119'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U120'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U121'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U107'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U108'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U109'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U110'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U111'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U112'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U113'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U114'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U99'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U100'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U101'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U102'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U103'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U105'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U106'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U91'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U92'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U93'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U94'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U95'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U96'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U98'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U83'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U84'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U85'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U86'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U87'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U88'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U89'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U90'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U76'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U77'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U78'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U80'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U81'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U82'
+         to break a timing loop. (OPT-314)
+Library(s) Used:
+
+    typical (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/typical.db)
+
+Number of ports:                         1554
+Number of nets:                          3844
+Number of cells:                         1933
+Number of combinational cells:           1566
+Number of sequential cells:               275
+Number of macros/black boxes:               0
+Number of buf/inv:                        166
+Number of references:                      76
+
+Combinational area:              27070.135753
+Buf/Inv area:                      933.569998
+Noncombinational area:            8896.073116
+Macro/Black Box area:                0.000000
+Net Interconnect area:          249154.593719
+
+Total cell area:                 35966.208870
+Total area:                     285120.802589
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Thu Apr 18 00:15:08 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U100/A1N U100/Y 
+Information: Timing loop detected. (OPT-150)
+	U101/A1N U101/Y 
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U100'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U101'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U102'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U103'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U105'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U106'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U107'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U109'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U110'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U111'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U112'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U113'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U114'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U115'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U116'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U117'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U118'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U120'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U121'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U5'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U6'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U8'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U9'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U10'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U12'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U13'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U16'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U17'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U18'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U19'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U20'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U21'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U22'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U23'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U24'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U26'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U27'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U28'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U29'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U30'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U31'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U32'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U33'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U34'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U35'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U37'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U38'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U39'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U40'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U41'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U45'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U46'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U48'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U49'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U50'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U51'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U52'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U53'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U54'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U55'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U56'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U57'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U59'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U60'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U61'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U62'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U63'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U64'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U65'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U66'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U67'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U68'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U70'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U71'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U72'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U74'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U76'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U77'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U78'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U81'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U82'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U83'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U84'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U85'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U86'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U87'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U88'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U89'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U90'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U92'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U93'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U94'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U95'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U96'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U98'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U99'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U108'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U119'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U3'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U36'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U25'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U47'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U58'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U69'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U80'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U91'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Library(s) Used:
+
+    typical (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/typical.db)
+
+Number of ports:                         1554
+Number of nets:                          4114
+Number of cells:                         2076
+Number of combinational cells:           1709
+Number of sequential cells:               275
+Number of macros/black boxes:               0
+Number of buf/inv:                        249
+Number of references:                     102
+
+Combinational area:              29875.937888
+Buf/Inv area:                     1208.548780
+Noncombinational area:            8899.467918
+Macro/Black Box area:                0.000000
+Net Interconnect area:          255781.294739
+
+Total cell area:                 38775.405807
+Total area:                     294556.700546
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Thu Apr 18 00:27:40 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U100/A1N U100/Y 
+Information: Timing loop detected. (OPT-150)
+	U101/A1N U101/Y 
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U100'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U101'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U102'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U103'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U105'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U106'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U107'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U109'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U110'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U111'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U112'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U113'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U114'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U115'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U116'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U117'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U118'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U120'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U121'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U5'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U6'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U8'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U9'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U10'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U12'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U13'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U16'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U17'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U18'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U19'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U20'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U21'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U22'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U23'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U24'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U26'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U27'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U28'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U29'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U30'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U31'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U32'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U33'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U34'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U35'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U37'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U38'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U39'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U40'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U41'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U45'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U46'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U48'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U49'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U50'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U51'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U52'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U53'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U54'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U55'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U56'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U57'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U59'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U60'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U61'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U62'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U63'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U64'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U65'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U66'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U67'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U68'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U70'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U71'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U72'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U74'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U76'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U77'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U92'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U58'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U80'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U69'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U91'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U93'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U94'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U95'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U99'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U3'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U108'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U119'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U78'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U81'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U82'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U83'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U84'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U85'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U86'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U87'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U88'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U89'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U90'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U96'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U98'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U25'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U36'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U47'
+         to break a timing loop. (OPT-314)
+Library(s) Used:
+
+    typical (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/typical.db)
+
+Number of ports:                         1554
+Number of nets:                          3904
+Number of cells:                         1966
+Number of combinational cells:           1599
+Number of sequential cells:               275
+Number of macros/black boxes:               0
+Number of buf/inv:                        199
+Number of references:                      95
+
+Combinational area:              29409.152948
+Buf/Inv area:                     1040.506181
+Noncombinational area:            8902.862720
+Macro/Black Box area:                0.000000
+Net Interconnect area:          251394.605652
+
+Total cell area:                 38312.015669
+Total area:                     289706.621321
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Thu Apr 18 00:42:32 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U100/A1N U100/Y 
+Information: Timing loop detected. (OPT-150)
+	U101/A1N U101/Y 
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U100'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U101'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U102'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U103'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U105'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U106'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U107'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U109'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U110'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U111'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U112'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U113'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U114'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U115'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U116'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U117'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U118'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U120'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U121'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U5'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U6'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U8'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U9'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U10'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U12'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U13'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U16'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U17'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U18'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U19'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U20'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U21'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U22'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U23'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U24'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U26'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U27'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U28'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U29'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U30'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U31'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U32'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U33'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U34'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U35'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U37'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U38'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U39'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U40'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U41'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U45'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U46'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U48'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U49'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U50'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U51'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U52'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U53'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U54'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U55'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U56'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U57'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U59'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U60'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U61'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U62'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U63'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U64'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U65'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U66'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U67'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U68'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U70'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U71'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U72'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U74'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U76'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U77'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U78'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U81'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U82'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U83'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U84'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U85'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U86'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U87'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U88'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U89'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U90'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U92'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U93'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U94'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U95'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U96'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U98'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U99'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U108'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U119'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U3'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U25'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U36'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U47'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U58'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U69'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U80'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U91'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1N' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Library(s) Used:
+
+    typical (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/typical.db)
+
+Number of ports:                         1554
+Number of nets:                          3844
+Number of cells:                         1933
+Number of combinational cells:           1566
+Number of sequential cells:               275
+Number of macros/black boxes:               0
+Number of buf/inv:                        188
+Number of references:                      77
+
+Combinational area:              27036.187743
+Buf/Inv area:                      976.004982
+Noncombinational area:            8896.073116
+Macro/Black Box area:                0.000000
+Net Interconnect area:          249014.593903
+
+Total cell area:                 35932.260859
+Total area:                     284946.854762
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Thu Apr 18 01:00:45 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    typical (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/typical.db)
+
+Number of ports:                         1554
+Number of nets:                          3955
+Number of cells:                         1916
+Number of combinational cells:           1421
+Number of sequential cells:               403
+Number of macros/black boxes:               0
+Number of buf/inv:                        163
+Number of references:                      79
+
+Combinational area:              24050.461234
+Buf/Inv area:                      880.950585
+Noncombinational area:           13546.949249
+Macro/Black Box area:                0.000000
+Net Interconnect area:          242247.906952
+
+Total cell area:                 37597.410484
+Total area:                     279845.317436
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Thu Apr 18 01:07:14 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    typical (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/typical.db)
+
+Number of ports:                         1554
+Number of nets:                          4136
+Number of cells:                         2132
+Number of combinational cells:           1637
+Number of sequential cells:               403
+Number of macros/black boxes:               0
+Number of buf/inv:                        216
+Number of references:                     110
+
+Combinational area:              27440.168948
+Buf/Inv area:                     1094.822983
+Noncombinational area:           13580.897255
+Macro/Black Box area:                0.000000
+Net Interconnect area:          255361.305511
+
+Total cell area:                 41021.066203
+Total area:                     296382.371715
